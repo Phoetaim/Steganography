@@ -8,4 +8,4 @@ size (in bytes) should the output file be?
 | Language | Input file size  | Output file size | Ratio (x being the size of input file)        |
 |----------|------------------|------------------|-----------------------------------------------|
 | Python   |        9kB       |       65kB       | 8x because each character is converted into 8 |
-| Matlab   |                  |                  |                                               |
+| Matlab   |        9kB       |       65kB       | 8x because each character is converted into 8 |  
