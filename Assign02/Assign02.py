@@ -1,7 +1,7 @@
 
-filename = "text.txt"
+filename = "Assign02/Declaration_of_Independance.txt"
 FileINPUT = open(filename, "r")
-FileOUTPUT = open("binary_text.txt", "w")
+FileOUTPUT = open("Assign02/binary_text_python.txt", "w")
 
 data = FileINPUT.read()
 bin = bin(int.from_bytes(data.encode(), 'big'))[2:]
