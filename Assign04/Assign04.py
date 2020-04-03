@@ -20,7 +20,7 @@ def getBMPHeaderInfo (image):
         print('%s' % imageHeaderSize)
         print("please use a bitmap image with a correct header version!")
         exit
-    print('Image size: %s' % imageSize)
+    print('Image size: %s' % imageSize
     width = struct.unpack('I', image.read(4))
     height = struct.unpack('I', image.read(4))
     print("Image width: %s" % width)
