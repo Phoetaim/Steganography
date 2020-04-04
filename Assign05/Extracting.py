@@ -22,7 +22,6 @@ class Extracting:
         self.txt_length = self.offset*3
         for y in range (0,self.offset):
             self.extract_from_pixel(0,y)
-        print(self.extracted_data)
     
         
     def extract_from_last_bit(self,pixel, plan):
